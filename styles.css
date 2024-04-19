@@ -25,7 +25,7 @@ background-size: 10%;
 
 .text-1{
   color: #191826;
-font-family: "IBM Plex Sans";
+
 font-size: 40px;
 font-style: normal;
 font-weight: 700;
@@ -36,7 +36,7 @@ padding: 24px;
 
 .text-2{
   color: #191826;
-font-family: "IBM Plex Sans";
+
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -62,7 +62,7 @@ top: -150px;
 
 .EQ-headline{
   color: #FCFAF9;
-font-family: "IBM Plex Sans";
+
 font-size: 32px;
 font-style: normal;
 font-weight: 700;
@@ -72,7 +72,7 @@ line-height: 40px;
 
 .text-3{
   color: #FCFAF9;
-font-family: "IBM Plex Sans";
+
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
@@ -83,7 +83,7 @@ line-height: 28px;
 
 .price{
   color: #FCFAF9;
-  font-family: "IBM Plex Sans";
+
   font-size: 65px;
   font-style: normal;
   font-weight: 700;
@@ -93,7 +93,7 @@ line-height: 28px;
 
 .month{
   color: #FCFAF9;
-  font-family: "IBM Plex Sans";
+
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -124,7 +124,7 @@ background: #191826;
 width: 100%;
 color: #FCFAF9;
 text-align: center;
-font-family: "IBM Plex Sans";
+font-family: "IBM Plex Sans", sans-serif;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -166,12 +166,13 @@ background: #FA7453;
 padding: 48px 37px 48px 42px;
 margin-top: -75px;
 z-index: 2;
+position: relative;
 }
 
 
 .footer-text{
 color: #191826;
-font-family: "IBM Plex Sans",sans-serif;
+
 font-size: 16px;
 font-style: normal;
 font-weight: 400;
@@ -210,11 +211,11 @@ background-position: center;
   z-index: -1;
 }
 
-.bgpattern-1{
+.bg-pattern-1{
   display: none;
 }
 
-.bg-main-tablet{
+.bgmaintablet{
   display: none;
 }
 
@@ -226,7 +227,7 @@ background-position: center;
   line-height: 4rem;
   letter-spacing: -0.046rem;
 padding-left: 39px;
-font-family: "IBM Plex Sans";
+
 }  
 
 
@@ -243,8 +244,8 @@ padding-left: 39px;
 
 .bg-pattern-1{
 position: relative;
-top: 0px;
-right: 0px;
+top: -720px;
+right: -495px
 }
 
 .telephone{
@@ -295,9 +296,9 @@ body{
 .bgmaintablet{
   display: block;
   position: absolute;
-  top: -10%;
-  left: -10%;
-  width: 100%;
+  top: -30%;
+  left: -45%;
+  /* width: 100%; */
 }
 
 
@@ -313,9 +314,7 @@ body{
 
 .text-1{
   width: 1015px;
-  height: 176px;
   color: #191826;
-font-family: "IBM Plex Sans";
 font-size: 88px;
 font-style: normal;
 font-weight: 700;
@@ -324,7 +323,27 @@ letter-spacing: -1px;
 }
 
 
+.text-2{
+  width: 825px;
+  color: #191826;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 170% */
+}
 
+
+.Orange-box{
+transform: translateX(100%);
+}
+
+.footer-class{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+
+}
 
 
 
